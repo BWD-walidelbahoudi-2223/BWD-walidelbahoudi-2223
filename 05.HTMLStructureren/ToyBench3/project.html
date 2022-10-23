@@ -10,46 +10,49 @@
 
 <body>
     <header>
-        <h1>Ol' Toy Bench</h1>
-        <p> A SECOND LIFE FOR TIMELESS TOYS</p>
+        <section>
+            <h1>Ol' Toy Bench</h1>
+            <p> A SECOND LIFE FOR TIMELESS TOYS</p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="project.html">PROJECTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <form action="#">
+            <p>filters</p>
+            <p>
+                <label for="category"></label>
+                <select id="category">
+                    <option value="-1">category... </option>
+                    <option value="0">dolls</option>
+                    <option value="1">cars</option>
+                    <option value="2">games</option>
+                </select>
+            </p>
+            <p>
+                <label>year</label>:
+                <label><input type="checkbox" name="year" id="50's">50's</label>
+                <label><input type="checkbox" name="year" id="60's">60's</label>
+            </p>
+            <!-- id, name, disabled(-1) categoryname, label text-->
+            <p>
+                <label>state</label>
+                <label><input type="radio" name="state" value="todo">todo</label>
+                <label><input type="radio" name="state" value="doing">doing</label>
+                <label><input type="radio" name="state" value="done">done</label>
+            </p>
+            <p>
+                <input type="reset" value="X clear">
+            </p>
+            <p>
+                <input type="submit" value="apply">
+            </p>
+        </form>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="project.html">PROJECTS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-    </nav>
-    <form action="#">
-        <p>filters</p>
-        <p>
-            <label for="category"></label>
-            <select id="category">
-                <option value="-1">category... </option>
-                <option value="0">dolls</option>
-                <option value="1">cars</option>
-                <option value="2">games</option>
-            </select>
-        </p>
-        <p>
-            <label>year</label>:
-            <label><input type="checkbox" name="year" id="50's">50's</label>
-            <label><input type="checkbox" name="year" id="60's">60's</label>
-        </p>
-        <!-- id, name, disabled(-1) categoryname, label text-->
-        <p>
-            <label>state</label>
-            <label><input type="radio" name="state" value="todo">todo</label>
-            <label><input type="radio" name="state" value="doing">doing</label>
-            <label><input type="radio" name="state" value="done">done</label>
-        </p>
-        <p>
-            <input type="reset" value="X clear">
-        </p>
-        <p>
-            <input type="submit" value="apply">
-        </p>
-    </form>
     <main>
         <h2>PROJECTS</h2>
         <section>
