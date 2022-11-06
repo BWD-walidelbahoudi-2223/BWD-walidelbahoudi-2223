@@ -1,0 +1,25 @@
+#menu1 a {
+    color: white;
+    background-color: black;
+    display: flex;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 3px;
+    
+
+}
+
+#menu1 a:hover {
+    background-color: blue;
+}
+
+#menu1 ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+/*
+#menu1 li.active.a {
+    font-size: larger;
+    flex-direction: row;
+}
+*/
