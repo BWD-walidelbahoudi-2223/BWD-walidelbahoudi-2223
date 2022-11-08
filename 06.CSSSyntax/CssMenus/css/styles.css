@@ -21,8 +21,17 @@
 }
 
 /* menu2*/
+#menu2 {
+    background-color: #dd2e1c;
+    border-bottom: #e37e73;
+    color: white;
+    list-style: none;
+    padding: 6px 6px;
+    display: inline-flex;
+}
+
 #menu2 a {
-    color: #000;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: lighter;
@@ -32,10 +41,10 @@
     text-decoration: none;
 }
 
-#menu2 ul {
-    background-color: ;
-    border-bottom: ;
-    list-style: ;
-    padding: ;
-    display: ;
+#menu2 a:hover {
+    text-decoration: underline;
+}
+
+#menu2 li.active {
+    text-decoration: underline;
 }
