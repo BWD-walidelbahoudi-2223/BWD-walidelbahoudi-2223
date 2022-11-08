@@ -5,32 +5,33 @@
     font-weight: lighter;
     letter-spacing: 2px;
     margin: 3px;
-    padding: ;
-    text-decoration: ;
-    text-transform: ;
-    transition: ;
+    padding: 6px 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
 }
 
 #menu1 a:hover {
     background-color: 74c593;
 }
 
-#menu1 ul {
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
+#menu1 ul.active a {
+    background-color: 74c593;
+    display: inline-block;
 }
 
 /* menu2*/
 #menu2 a {
     color: #000;
-    font-family: ;
-    font-size: ;
-    font-weight: ;
-    letter-spacing: ;
-    margin: ;
-    padding: ;
-    text-decoration: ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 3px;
+    padding: 6px 6px;
+    text-decoration: none;
 }
+
 #menu2 ul {
     background-color: ;
     border-bottom: ;
