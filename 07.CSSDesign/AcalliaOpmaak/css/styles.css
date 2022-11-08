@@ -21,7 +21,8 @@ body{
    border-radius: 10px;
 }
 header{
-   
+   margin-top: auto;
+   padding-top: auto;
 }
 /* ===========================================
    Menu
@@ -48,11 +49,13 @@ text-decoration: none;
 nav li a:hover{
 color:white;
 background-color: #b52025;
-padding: auto;
+padding: 5px 5px;
 transition: 1s;
 }
 nav a active{
-
+   color:white;
+   background-color: #b52025;
+   padding: 5px 5px;
 }
 #banner{
    background-image: url(img/slider_photo2.jpg);
@@ -72,14 +75,21 @@ background-color: rgba(44, 43, 43, 0.856);
 /* main styles here */
 /* ... */
 p{
-
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.8;
+   font-size: 13px;
 }
 li{
-
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.8;
+   font-size: 13px;
 }
 h3{
    color: #b52025;
    text-transform: uppercase;
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.8;
+   font-size: 13px;
 }
 h3::after{
    content: " →";
@@ -95,8 +105,9 @@ h3::after{
    border: 1px #b52025;
    display: block;
    border-color: #b52025;
+   font-weight: bold;
 }
-.more a{
+.more a:hover{
    text-decoration: underline;
 }
 #content a::after{
@@ -113,4 +124,5 @@ h3::after{
 footer{
 text-align: center;
 background-color:  rgb(224, 224, 224);
+font-family: 'Roboto', sans-serif;
 }
