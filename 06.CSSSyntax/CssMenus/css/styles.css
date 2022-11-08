@@ -1,6 +1,6 @@
 #menu1 a {
-    color: white;
     background-color: black;
+    color: white;
     display: flex;
     font-weight: lighter;
     letter-spacing: 2px;
@@ -25,9 +25,10 @@
     background-color: #dd2e1c;
     border-bottom: #e37e73;
     color: white;
+    display: inline-flex;
     list-style: none;
     padding: 6px 6px;
-    display: inline-flex;
+    
 }
 
 #menu2 a {
