@@ -5,21 +5,36 @@
     font-weight: lighter;
     letter-spacing: 2px;
     margin: 3px;
-    
-
+    padding: ;
+    text-decoration: ;
+    text-transform: ;
+    transition: ;
 }
 
 #menu1 a:hover {
-    background-color: blue;
+    background-color: 74c593;
 }
 
-#menu1 ul{
+#menu1 ul {
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
 }
-/*
-#menu1 li.active.a {
-    font-size: larger;
-    flex-direction: row;
+
+/* menu2*/
+#menu2 a {
+    color: #000;
+    font-family: ;
+    font-size: ;
+    font-weight: ;
+    letter-spacing: ;
+    margin: ;
+    padding: ;
+    text-decoration: ;
 }
-*/
+#menu2 ul {
+    background-color: ;
+    border-bottom: ;
+    list-style: ;
+    padding: ;
+    display: ;
+}
