@@ -13,7 +13,15 @@
 /* html, body and general element styles here */
 /* ... */
 
-
+html{
+   background-color: ;
+}
+body{
+   background-color: white;
+}
+header{
+   
+}
 /* ===========================================
    Menu
    =========================================== */
