@@ -14,10 +14,11 @@
 /* ... */
 
 html{
-   background-color: ;
+   background-color: rgb(199, 198, 198);
 }
 body{
    background-color: white;
+   border-radius: 10px;
 }
 header{
    
@@ -38,22 +39,29 @@ header{
 /* banner styles here */
 /* ... */
 nav li{
-
+   display: inline-flex;
 }
 nav li a{
-
+   color: black;
+text-decoration: none;
 }
 nav li a:hover{
-
+color:white;
+background-color: #b52025;
+padding: auto;
+transition: 1s;
 }
 nav a active{
 
 }
-banner{
-
+#banner{
+   background-image: url(img/slider_photo2.jpg);
+   background-size:auto;
+   border: 3px #b52025 solid;
 }
-banner p{
-
+#banner p{
+color: white;
+background-color: rgba(44, 43, 43, 0.856);
 }
 
 
@@ -64,8 +72,37 @@ banner p{
 /* main styles here */
 /* ... */
 p{
-   
+
 }
+li{
+
+}
+h3{
+   color: #b52025;
+   text-transform: uppercase;
+}
+h3::after{
+   content: " →";
+}
+.more{
+   text-align: right;
+}
+.more a{
+   color: #b52025;
+   text-decoration: none;
+   padding: 4px 4px;
+   border-radius: 4px ;
+   border: 1px #b52025;
+   display: block;
+   border-color: #b52025;
+}
+.more a{
+   text-decoration: underline;
+}
+#content a::after{
+   content: "»";
+}
+
 
 /* ===========================================
    Footer
@@ -74,5 +111,6 @@ p{
 /* footer styles here */
 /* ... */
 footer{
-
+text-align: center;
+background-color:  rgb(224, 224, 224);
 }
