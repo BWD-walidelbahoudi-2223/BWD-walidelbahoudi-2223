@@ -37,7 +37,24 @@ header{
 
 /* banner styles here */
 /* ... */
+nav li{
 
+}
+nav li a{
+
+}
+nav li a:hover{
+
+}
+nav a active{
+
+}
+banner{
+
+}
+banner p{
+
+}
 
 
 /* ===========================================
@@ -46,7 +63,9 @@ header{
 
 /* main styles here */
 /* ... */
-
+p{
+   
+}
 
 /* ===========================================
    Footer
@@ -54,3 +73,6 @@ header{
 
 /* footer styles here */
 /* ... */
+footer{
+
+}
