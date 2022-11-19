@@ -75,7 +75,7 @@ nav a active {
 #banner p {
    background-color: rgba(44, 43, 43, 0.856);
    color: white;
-  
+
 }
 
 
@@ -134,11 +134,13 @@ h3::after {
 #content a::after {
    content: "»";
 }
-#email{
+
+#email {
    background-color: #fcc5c7;
 }
-#Signup{
-   background-color: #b52025 ;
+
+#Signup {
+   background-color: #b52025;
    color: white;
 }
 

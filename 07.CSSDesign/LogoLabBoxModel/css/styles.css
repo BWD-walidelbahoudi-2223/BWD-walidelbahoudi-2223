@@ -1,0 +1,63 @@
+#topbar li {
+    margin-left: 15px;
+    border: none;
+}
+#topbar li a {
+    padding: 5px 10px;
+}
+#topbar nav {
+    margin: auto;
+}
+#topbar.active a {
+    padding: auto;
+}
+footer{
+    margin-top: 100px;
+    padding: 50px 10px;
+}
+.wrapper{
+   margin-left: 175px;
+   margin-right: 205px;
+}
+.wrapper li{
+border-bottom: 1px solid rgb(173, 172, 172);
+}
+.wrapper ul{
+    margin-top: 17px;
+}
+.wrapper img{
+    padding-bottom: 15px;
+}
+.wrapper p{
+    margin-bottom: 15px;
+}
+header{
+    margin-bottom: 50px;
+    border-bottom: 50px solid rgb(219, 219, 219);
+}
+header blockquote{
+    margin-bottom: 80px;
+}
+#ctaFacebook{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+#ctaTwitter{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+#ctaNetlog{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+#social li {
+    margin-bottom: 15px;
+}
+.button a{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+aside{
+    margin-top: 10p;
+}
+
