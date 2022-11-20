@@ -33,9 +33,9 @@ main div {
 }
 main ul{
     display:flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: flex-start;
-}
+    }
 #gallery {
     align-items: flex-start;
     display: flex;
@@ -46,23 +46,35 @@ main ul{
     display: inline;
 }
 
+
 /* CONTENT */
 /* ======= */
 #content {
     justify-content: space-between;
 }
-
+#content.left h3 {
+   float: right;
+}
+#content.right h3 {
+    float: left;
+ }
+ #content.left img {
+    float: left;
+ }
+ #content.right img {
+    float: right;
+ }
 .left {
-
+max-width: 65%;
 }
 
 .right {
-
+max-width: 25%;
 }
 body{
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
+    max-width: 960px;
 }
 
 /* DOORMAT */
