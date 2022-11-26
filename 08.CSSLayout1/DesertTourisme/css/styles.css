@@ -47,6 +47,8 @@ main ul{
 
 #gallery li {
     display: inline;
+    margin-top: 25px;
+    width: 25%;
 }
 
 
@@ -55,17 +57,19 @@ main ul{
 #content {
     justify-content: space-between;
 }
-#content.left h3 {
+#content .left h3 p{
    float: right;
 }
-#content.right h3 {
+#content .right h3 p{
     float: left;
  }
- #content.left img {
+ #content .left img {
     float: left;
+    margin-right: 20px;
  }
- #content.right img {
+ #content .right img {
     float: right;
+    margin-right: 20px;
  }
 .left {
 max-width: 65%;
