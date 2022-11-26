@@ -12,9 +12,9 @@
 /* HEADER */
 /* ====== */
 header {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 header ul {
@@ -23,6 +23,9 @@ header ul {
 
 header li {
     margin-left: 50px;
+}
+img{
+    max-width: 100%;
 }
 
 /* MAIN */
@@ -33,8 +36,8 @@ main div {
 }
 main ul{
     display:flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     }
 #gallery {
     align-items: flex-start;
@@ -69,7 +72,7 @@ max-width: 65%;
 }
 
 .right {
-max-width: 25%;
+max-width: 30%;
 }
 body{
     margin-left: auto;
