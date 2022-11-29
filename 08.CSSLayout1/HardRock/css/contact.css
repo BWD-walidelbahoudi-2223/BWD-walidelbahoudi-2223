@@ -29,6 +29,14 @@ address {
 iframe {
    border: none;
 }
+#bottom_content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+iframe{
+   border:none;
+}
 
 /* form */
 
@@ -38,6 +46,15 @@ form label {
 }
 
 form input {
+   float: right;
    padding: 7px;
+}
+.info_form p{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+}
+.info_form label{
+   margin-right: auto;
 }
 
