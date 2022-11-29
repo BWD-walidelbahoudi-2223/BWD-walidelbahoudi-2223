@@ -109,6 +109,9 @@ header {
 } 
 
 header .wrapper {
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
 	padding: 20px 0;
 }  
 
@@ -150,6 +153,9 @@ header .wrapper {
 	color: #14833b;
 	text-decoration: none;
 }
+#mainmenu li{
+   margin-left: auto;
+}
 
 /* ===========================================
    Main content
@@ -172,10 +178,13 @@ main p {
    =========================================== */
 
 footer {
+   align-items: center;
    background-color: #fff;
    border-top: 2px solid #ebeceb;
    color: #666;
+   display: flex;
    font-size: 11px;
+   justify-content: space-between;
    padding: 15px;
 }
 
@@ -186,4 +195,16 @@ footer > div a {
 }
 #social_icons {
 	list-style: none;
+}
+.wrapper{
+   max-width: 75%;
+   margin-right: auto;
+   margin-left: auto;
+}
+footer ul{
+display: flex;
+flex-wrap: wrap;
+}
+footer li{
+   margin-left: auto;
 }

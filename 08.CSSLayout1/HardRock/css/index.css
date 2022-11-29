@@ -58,4 +58,13 @@
       text-decoration: none;
    }
    
+   #gallery a{
+      max-width: 20%;
+      margin: auto;
+   }
+   .right img{
+      float: left;
+      max-width: 40%;
+      margin-right: 10px;
+   }
    
