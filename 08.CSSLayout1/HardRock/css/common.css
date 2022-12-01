@@ -27,7 +27,7 @@ img {
 
 body {
    background-color: #f5f5f5;
-   font-family: Arial, Verdana, Tahoma;
+   font-family: Arial, Verdana, Tahoma, sans-serif;
    font-size: 14px;
    line-height: 1.4;
 }
@@ -136,8 +136,8 @@ header .wrapper {
 }
 
 .logo p {
-   font-size: 14px;
    color: #555;
+   font-size: 14px;
    font-style: italic;
 }
 
@@ -195,9 +195,9 @@ footer {
 }
 
 footer>div a {
-   text-decoration: underline;
    color: #666;
    font-size: 11px;
+   text-decoration: underline;
 }
 
 #social_icons {
@@ -205,9 +205,9 @@ footer>div a {
 }
 
 .wrapper {
-   max-width: 75%;
-   margin-right: auto;
    margin-left: auto;
+   margin-right: auto;
+   max-width: 75%;
 }
 
 footer ul {
