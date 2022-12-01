@@ -49,8 +49,8 @@
    }
 
    .right h3 a {
-      color: #333;
       border-bottom: 1px solid #cccccc;
+      color: #333;
    }
 
    .right h3 a:hover {
@@ -59,12 +59,12 @@
    }
 
    #gallery a {
-      max-width: 20%;
       margin: auto;
+      max-width: 20%;
    }
 
    .right img {
       float: left;
-      max-width: 40%;
       margin-right: 10px;
+      max-width: 40%;
    }
