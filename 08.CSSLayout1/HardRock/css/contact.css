@@ -29,13 +29,15 @@ address {
 iframe {
    border: none;
 }
-#bottom_content{
+
+#bottom_content {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
 }
-iframe{
-   border:none;
+
+iframe {
+   border: none;
 }
 
 /* form */
@@ -49,12 +51,13 @@ form input {
    float: right;
    padding: 7px;
 }
-.info_form p{
+
+.info_form p {
    display: flex;
    flex-flow: row nowrap;
    justify-content: space-between;
 }
-.info_form label{
+
+.info_form label {
    margin-right: auto;
 }
-
