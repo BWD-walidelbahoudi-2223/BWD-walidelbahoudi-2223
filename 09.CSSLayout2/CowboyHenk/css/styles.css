@@ -11,15 +11,15 @@
    =========================================== */
 
 img {
-   border: 0;
+	border: 0;
 }
 
 * {
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
-   
+
 /* ===========================================
    General
    =========================================== */
@@ -28,7 +28,7 @@ body {
 	background-color: #f1f1f1;
 	color: #000;
 	font-family: "Raleway", sans-serif;
-	font-size: 15px; 
+	font-size: 15px;
 	line-height: 1.5;
 }
 
@@ -40,9 +40,14 @@ body {
 a {
 	color: #982216;
 	text-decoration: none;
+	font-weight: 500;
+}
+p{
+	font-weight: 500;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
 	text-decoration: none;
 }
 
@@ -63,7 +68,7 @@ header {
 	padding: 32px 16px;
 }
 
-header > h1 {
+header>h1 {
 	font-size: 36px;
 	font-weight: bold;
 	margin: 10px 0;
@@ -78,7 +83,7 @@ header .inverted {
 
 @keyframes bummer {
 	0% {
-		transform: scale(0,0); 
+		transform: scale(0, 0);
 	}
 }
 
@@ -87,8 +92,8 @@ header p {
 	text-align: center;
 	-webkit-animation: bummer 2s;
 	animation: bummer 2s;
-	-webkit-transform: scale(1,1); 
-	transform: scale(1,1);
+	-webkit-transform: scale(1, 1);
+	transform: scale(1, 1);
 }
 
 
@@ -128,7 +133,7 @@ nav li a {
 
 .card {
 	background: #fff;
-	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 32px 16px;
 }
 
@@ -147,10 +152,12 @@ nav li a {
 main {
 	display: flex;
 }
+
 #blogentries {
 	min-width: 350px;
 	width: 800px;
-}   
+}
+
 aside {
 	width: 400px;
 }
@@ -194,7 +201,7 @@ aside {
 	text-transform: uppercase;
 }
 
-.entry .badge, 
+.entry .badge,
 .entry .tag {
 	background-color: #000;
 	color: #fff;
@@ -247,11 +254,11 @@ aside {
 	background-color: #ccc;
 }
 
-.popular img + p {
+.popular img+p {
 	font-size: 18px;
 }
 
-.popular h3, 
+.popular h3,
 #tags h3 {
 	background-color: #f1f1f1;
 	font-size: 20px;
@@ -302,7 +309,7 @@ aside {
 	padding: 32px 16px;
 }
 
-.site_footer .buttons, 
+.site_footer .buttons,
 .site_footer .social {
 	margin: 0;
 	text-align: center;
@@ -331,15 +338,15 @@ aside {
 	margin-top: 32px;
 }
 
-.site_footer .social a  {
+.site_footer .social a {
 	font-size: 21px;
 }
 
-.site_footer .social a + a {
+.site_footer .social a+a {
 	padding-left: 15px;
 }
 
-.site_footer .social p + p {
+.site_footer .social p+p {
 	margin-top: 3px;
 }
 
@@ -347,3 +354,34 @@ aside {
    Media queries
    =========================================== */
 
+@media (min-width: 800px) {
+	main {
+		display: flex;
+	}
+}
+
+@media (min-width: 700px) {
+	nav ul {
+		display: flex;
+	}
+}
+
+@media (min-width: 700px) {
+
+	a,
+	p {
+		font-weight: 500;
+	}
+}
+
+@media (min-width: 500px) {
+	.subtitle, .date{
+		display: flex;
+	}
+}
+
+@media (min-width: 600px) {
+	.site_footer .buttons {
+		text-align: right;
+	}
+}
