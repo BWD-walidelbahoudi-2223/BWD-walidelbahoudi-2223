@@ -12,54 +12,59 @@
 /* reset */
 
 * {
-   box-sizing: border-box; /* width and height include paddings and borders */
-   margin: 0; /* wipe out browser differences */
-   padding: 0; /* wipe out browser differences */ 
+   box-sizing: border-box;
+   /* width and height include paddings and borders */
+   margin: 0;
+   /* wipe out browser differences */
+   padding: 0;
+   /* wipe out browser differences */
 }
 
 img {
    border: 0;
    max-width: 100%;
 }
-   
+
 body {
-	background-color: #f5f5f5;
-	font-family: Arial, Verdana, Tahoma;
-	font-size: 14px; 
+   background-color: #f5f5f5;
+   font-family: Arial, Verdana, Tahoma, sans-serif;
+   font-size: 14px;
    line-height: 1.4;
 }
 
 /* elements */
 
-h1, h2, h3 {
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+h1,
+h2,
+h3 {
+   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 h2 {
-	color: #333;
-	font-size: 24px;
-	font-weight: normal;
-	margin-bottom: 25px;
+   color: #333;
+   font-size: 24px;
+   font-weight: normal;
+   margin-bottom: 25px;
 }
 
 h3 {
-	font-size: 18px;
-	font-weight: normal;
-	margin-bottom: 20px;
+   font-size: 18px;
+   font-weight: normal;
+   margin-bottom: 20px;
 }
 
 p {
-	margin-bottom: 20px;
+   margin-bottom: 20px;
 }
 
 a {
-	color: #17a348;
-	text-decoration: none;
+   color: #17a348;
+   text-decoration: none;
 }
 
 a:hover {
-	color: #14833b;
-	text-decoration: underline;
+   color: #14833b;
+   text-decoration: underline;
 }
 
 /* classes */
@@ -81,7 +86,7 @@ a.lnk-cta::after {
    display: inline-block;
    font-size: 16px;
    font-weight: 600;
-   padding: 8px 16px;   
+   padding: 8px 16px;
    text-decoration: none;
    text-transform: uppercase;
    transition: background 0.5s;
@@ -105,35 +110,35 @@ a.btn-cta:hover {
    =========================================== */
 
 header {
-   background: linear-gradient(0deg, rgba(200,200,200,1) 35%, rgba(240,240,240,1) 85%);
-} 
+   background: linear-gradient(0deg, rgba(200, 200, 200, 1) 35%, rgba(240, 240, 240, 1) 85%);
+}
 
 header .wrapper {
    align-items: center;
    display: flex;
    justify-content: space-between;
-	padding: 20px 0;
-}  
+   padding: 20px 0;
+}
 
 /* logo */
 
 .logo h1 {
-	font-size: 48px;
+   font-size: 48px;
 }
 
 .logo h1 a {
-	color: #333;
+   color: #333;
    font-family: 'Special Elite', cursive;
 }
 
 .logo h1 a:hover {
-	text-decoration: none;
+   text-decoration: none;
 }
 
 .logo p {
-	font-size: 14px;
-	color: #555;
-	font-style: italic;
+   color: #555;
+   font-size: 14px;
+   font-style: italic;
 }
 
 /* navigation */
@@ -150,10 +155,11 @@ header .wrapper {
 
 #mainmenu a:hover,
 #mainmenu .active a {
-	color: #14833b;
-	text-decoration: none;
+   color: #14833b;
+   text-decoration: none;
 }
-#mainmenu li{
+
+#mainmenu li {
    margin-left: auto;
 }
 
@@ -164,13 +170,13 @@ header .wrapper {
 /* general */
 
 main {
-	background-color: #fff;
+   background-color: #fff;
    padding-bottom: 50px;
 }
 
 main p {
-	color: #666;
-	line-height: 20px;
+   color: #666;
+   line-height: 20px;
 }
 
 /* ===========================================
@@ -188,23 +194,27 @@ footer {
    padding: 15px;
 }
 
-footer > div a {
-	text-decoration: underline;
-	color: #666;
-	font-size: 11px;
+footer>div a {
+   color: #666;
+   font-size: 11px;
+   text-decoration: underline;
 }
+
 #social_icons {
-	list-style: none;
+   list-style: none;
 }
-.wrapper{
-   max-width: 75%;
-   margin-right: auto;
+
+.wrapper {
    margin-left: auto;
+   margin-right: auto;
+   max-width: 75%;
 }
-footer ul{
-display: flex;
-flex-wrap: wrap;
+
+footer ul {
+   display: flex;
+   flex-wrap: wrap;
 }
-footer li{
+
+footer li {
    margin-left: auto;
 }
