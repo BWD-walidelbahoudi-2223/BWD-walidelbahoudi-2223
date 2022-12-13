@@ -1,5 +1,5 @@
-main h2,
-h3 {
+main h1,
+h2 {
     color: #0f998d;
     font-family: 'Manjari', sans-serif;
 }
@@ -46,17 +46,17 @@ header {
 }
 
 #banner_box {
-    width: 30%;
     margin-left: auto;
     margin-right: 210px;
+    width: 30%;
 }
 
 /*------------------------------------------------------------------
 ------------------------------------------------------------------------*/
 
 iframe {
-    width: 300px;
     height: 150px;
+    width: 300px;
 }
 
 nav li {
@@ -66,8 +66,8 @@ nav li {
 
 nav a {
     color: rgb(54, 160, 33);
-    text-decoration: none;
     padding: 5px;
+    text-decoration: none;
 }
 
 nav li a:hover {
@@ -87,18 +87,18 @@ nav li .active {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    padding-top: 10px;
-    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
+    max-width: 70%;
+    padding-top: 10px;
 }
 
 #salade{
     background-color: azure;
-    padding: 10px 70px 10px 20px;
-    display: inline-block;
-    color: #605ceb;
     border: 2px #534dec solid;
+    color: #605ceb;
+    display: inline-block;
+    padding: 10px 70px 10px 20px;
 }
 
 #salade ul{
@@ -107,8 +107,8 @@ nav li .active {
 }
 
 #salade a{
-    text-decoration: underline #5853f0;
     color: #605ceb;
+    text-decoration: underline #5853f0;
 }
 /*------------------------------------------------------------------
 ------------------------------------------------------------------------*/
@@ -138,11 +138,11 @@ footer a, small, label{
 }
 
 #footer_opmaak{
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
 }
 
 .middle_main{
