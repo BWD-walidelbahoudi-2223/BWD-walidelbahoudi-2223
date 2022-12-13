@@ -1,0 +1,154 @@
+/**
+ * Layout styles for Desert Tours
+ *
+ * @author Rogier van der Linde <rogier.vanderlinde@kahosl.be>
+ *
+ */
+
+/* GENERAL */
+/* ======= */
+
+
+/* HEADER */
+/* ====== */
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 700px){
+    header ul{
+        display: flex;
+    }
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 50px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* MAIN */
+/* ====== */
+main div {
+    display: flex;
+    justify-content: center;
+}
+
+main ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#gallery {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 700px){
+    #gallery li{
+        display: inline;
+        margin-top: 35px;
+        width: 35%;
+    }
+}
+
+#gallery li {
+    display: inline;
+    margin-top: 25px;
+    width: 25%;
+}
+
+
+/* CONTENT */
+/* ======= */
+
+@media (min-width: 700px){
+    #content{
+        display: flex;
+    }
+}
+
+#content {
+    justify-content: space-between;
+}
+
+#content .left h3 p {
+    float: right;
+}
+
+#content .right h3 p {
+    float: left;
+}
+
+#content .left img {
+    float: left;
+    margin-right: 20px;
+}
+
+#content .right img {
+    float: right;
+    margin-right: 20px;
+}
+
+@media (min-width: 600px){
+    .left{
+        max-width: 65%;
+    }
+
+    .right{
+        max-width: 30%;
+    }
+}
+
+.left {
+    max-width: 65%;
+}
+
+.right {
+    max-width: 30%;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+}
+
+/* DOORMAT */
+/* ======= */
+@media (min-width: 750px) {
+    #doormat{
+        display: flex;
+    }
+}
+
+#doormat {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* FOOTER */
+
+@media (min-width: 700px) {
+    footer{
+        display: flex;
+    }    
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ======= */
