@@ -159,3 +159,32 @@ footer a, small, label{
     display: flex;
     flex-wrap: wrap;
 }
+/*----------------------------------------------*/
+
+
+@media (min-width: 610px) {
+    footer{
+        display: flex;
+    }   
+}
+
+@media (min-width: 680px){
+    #footer_links{
+        max-width: 30%;
+    }
+
+    #footer_rechts {
+        max-width: 65%;
+    }
+    header ul{
+        display: flex;
+    }
+    
+    #main_middle {
+        display: flex;
+    }
+    #commit{
+        display: flex;
+    } 
+
+}
