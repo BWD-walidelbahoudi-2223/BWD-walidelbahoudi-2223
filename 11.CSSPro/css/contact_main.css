@@ -1,0 +1,55 @@
+.main__address {
+   font-size: 0.875rem;
+   font-style: normal;
+   line-height: 1.6;
+   margin-bottom: 1.25rem;
+}
+
+.top__title {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.main_top {
+    padding: 1.875rem 0.938rem 0 0.938rem;
+ }
+ 
+ .main_bottom{
+    padding: 1.875rem 0.938rem 0 0.938rem;
+ }
+ 
+ .bottom_content{
+    align-items: stretch;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+ }
+
+ .content__iframe {
+   border: none;
+   width: 50%;
+}
+ 
+ .p__textarea {
+    height: 9.375rem;
+    width: 21.875rem;
+  }
+ 
+ .form__p{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 1rem;
+    font-style: italic;
+ }
+ 
+ .p__input{
+   float: right;
+   padding: 0.438rem;
+   width: 74%;
+}
+ 
+ .p__label{
+    margin-right: 3.75rem;
+ }
+ 

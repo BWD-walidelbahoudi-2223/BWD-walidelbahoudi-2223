@@ -1,0 +1,33 @@
+
+   .page__footer {
+    align-items: center;
+    background-color: #fff;
+    border-top: 2px solid #ebeceb; 
+    color: #666;
+    display: flex;
+    font-size: 0.688rem;
+    justify-content: space-between;
+    padding: 0.938rem;
+ }
+
+ .footer__li {
+   margin-left: 1rem;
+}
+
+.footer__link {
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+ .page__footer > div a {         /*div a van footer of van hele document?*/
+     text-decoration: underline;
+     color: #666;
+     font-size: 0.688rem;
+ }
+  
+ .wrapper{
+    max-width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+ }
+

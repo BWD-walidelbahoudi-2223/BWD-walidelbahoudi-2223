@@ -1,0 +1,43 @@
+.page__main {
+   display: flex;
+}
+
+.main__left {
+   padding: 1.875rem 0.0.938rem 0 0.938rem;
+   width: 40rem;
+   width: 60%;
+}
+
+.main__gallery {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 2.188rem 0;
+}
+
+.main__gallery a {
+   max-width: 22%;
+   margin: 0rem 0.625rem 0.625rem 0.625rem;
+}
+
+
+
+.main__right {
+   padding: 1.875rem 0.938rem 0 0.938rem;
+   width: 40%;
+}
+
+.right__img {
+   float: left;
+   max-width: 35%;
+   margin-right: 0.5rem;
+}
+
+.right__link {
+   border-bottom: 1px solid #cccccc;
+   color: #333;
+}
+
+.right__link:hover {
+   color: #be0a35;
+   text-decoration: none;
+}

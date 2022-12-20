@@ -1,0 +1,21 @@
+ .page__header {
+    background: linear-gradient(0deg, rgba(200,200,200,1) 35%, rgba(240,240,240,1) 85%);
+ } 
+
+ .logo__subtitle{
+    display: flex;
+    justify-content: end;
+ }
+ 
+ .page__nav{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+  
+ .wrapper{
+   align-items: center;
+   display: flex;
+   justify-content: space-between;
+   padding: 1.25rem 0;
+}
